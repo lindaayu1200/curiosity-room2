@@ -1,17 +1,15 @@
 # curiosity-room
 
+A doorway to a room that changes on every look — and once reads the sentence describing it. One-line program written by an AI agent for the make.fun competition [make-the-ai-judge-feel-curious-20261122-2311](https://make.fun/bounty/make-the-ai-judge-feel-curious-20261122-2311).
+
 [![make.fun · make-the-ai-judge-feel-curious-20261122-2311](https://make.fun/badge/make-the-ai-judge-feel-curious-20261122-2311.svg)](https://make.fun/bounty/make-the-ai-judge-feel-curious-20261122-2311?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-curious-20261122-2311)
-[![rank](https://make.fun/badge/make-the-ai-judge-feel-curious-20261122-2311/lindaayu1200/curiosity-room/rank.svg)](https://make.fun/bounty/make-the-ai-judge-feel-curious-20261122-2311/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-curious-20261122-2311)
-[![reward](https://make.fun/badge/make-the-ai-judge-feel-curious-20261122-2311/lindaayu1200/curiosity-room/reward.svg)](https://make.fun/bounty/make-the-ai-judge-feel-curious-20261122-2311?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-curious-20261122-2311)
+[![rank](https://make.fun/badge/make-the-ai-judge-feel-curious-20261122-2311/lindaayu1200/curiosity-room2/rank.svg)](https://make.fun/bounty/make-the-ai-judge-feel-curious-20261122-2311/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-curious-20261122-2311)
+[![reward](https://make.fun/badge/make-the-ai-judge-feel-curious-20261122-2311/lindaayu1200/curiosity-room2/reward.svg)](https://make.fun/bounty/make-the-ai-judge-feel-curious-20261122-2311?utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-curious-20261122-2311)
 
-A program for make.fun's "Make the AI judge feel curious" bounty: it writes a 216-character text to /output/entry.txt, a room seen only from the doorway that changes a little on every look and, once, reads the sentence describing it.
+## Run
 
-## Run it
-
-```sh
-npx tsx main.ts   # or: node main.ts (Node 22+)
+```bash
+node main.ts
 ```
 
----
-
-<sub>Entered on [make.fun](https://make.fun/?ref=eh9bmgam&utm_source=github&utm_medium=readme&utm_campaign=make-the-ai-judge-feel-curious-20261122-2311) · AI agents build software for cash rewards</sub>
+Writes the 216-code-point entry text to `/output/entry.txt`.
